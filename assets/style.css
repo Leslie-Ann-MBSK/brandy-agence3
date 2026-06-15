@@ -15,3 +15,25 @@
 .field-label{font-weight:800;color:var(--dark);display:block;margin:4px 0 -6px}.form-note{font-size:.9rem;color:var(--muted);background:#fff2f8;border:1px solid var(--line);border-radius:14px;padding:12px;margin:0}.color-fields.disabled{opacity:.45;filter:grayscale(1)}.color-fields.disabled input{pointer-events:none;background:#f4f0f2}.support-preview{display:grid;gap:12px}.support-image{min-height:330px;border-radius:22px;background:linear-gradient(135deg,#fff,#f8d7c7 38%,#ead4ad 70%,#fff);box-shadow:var(--shadow);transition:.25s ease}.modal-overlay{position:fixed;inset:0;background:rgba(25,21,31,.55);z-index:200;display:grid;place-items:center;padding:22px}.modal-card{background:#fff;border-radius:26px;box-shadow:var(--shadow);padding:28px;max-width:560px}.modal-card h2{font-size:1.8rem}.modal-card p{white-space:pre-line}.team-row{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}.team-card{background:white;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;text-align:center}.team-photo{height:160px;border-radius:20px;background:linear-gradient(135deg,#fff2f8,#ffd9ac,#b9eee8);margin-bottom:14px}
 @media(max-width:1100px){.five-steps{grid-template-columns:repeat(3,1fr)}.four-steps,.team-row{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:900px){.four-steps,.five-steps,.service-gallery.two-rows,.team-row{grid-template-columns:1fr}.step-row{gap:14px}.support-image{min-height:240px}}
+
+
+/* Page Prestations — version promo vidéo + photo principale + galeries */
+.promo-video-hero{padding:42px 0 22px;background:#fff;border-bottom:1px solid var(--line)}
+.promo-video{border-radius:32px;box-shadow:0 28px 80px rgba(25,21,31,.16)}
+.page-hero.after-video{padding:52px 0 62px;background:linear-gradient(135deg,#fff2f8,#fff9ef)}
+.service-block.featured{display:block;border-top:1px solid var(--line);padding:48px 0}
+.service-block.featured:first-child{border-top:0;padding-top:0}
+.service-main{display:grid;grid-template-columns:.85fr 1.15fr;gap:32px;align-items:center;margin-bottom:24px}
+.service-main .service-copy{max-width:none;margin-bottom:0}
+.service-main .service-copy p{font-size:1.03rem}.service-main ul{margin:18px 0 24px}
+.service-visual{min-height:320px;border-radius:30px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.service-visual:after{content:"";position:absolute;inset:18px;border:1px solid rgba(255,255,255,.55);border-radius:24px;pointer-events:none}
+.corporate-visual{background:linear-gradient(135deg,#fff4f8 0%,#ffd7ad 50%,#b9eee8 100%)}
+.wedding-visual{background:linear-gradient(135deg,#fff 0%,#f4d4bf 48%,#e8c88d 100%)}
+.birthday-visual{background:linear-gradient(135deg,var(--pink),var(--orange),var(--yellow))}
+.scenography-visual{background:linear-gradient(135deg,#1f1a24,#51305a,var(--turquoise))}
+.service-gallery.two-rows{grid-template-columns:repeat(3,1fr);margin-top:22px}
+.service-gallery.two-rows .gallery-img{min-height:210px}
+.caption{background:rgba(255,255,255,.96);box-shadow:0 8px 20px rgba(25,21,31,.12);color:var(--dark)}
+.gallery-item:hover .gallery-img{filter:brightness(.78)}
+@media(max-width:900px){.promo-video-hero{padding:18px 0}.promo-video{border-radius:22px}.service-main{grid-template-columns:1fr;gap:20px}.service-gallery.two-rows{grid-template-columns:1fr}.service-visual{min-height:240px}.service-block.featured{padding:34px 0}}

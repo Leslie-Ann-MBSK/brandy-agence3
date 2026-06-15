@@ -89,7 +89,9 @@ async function hydratePrestations(){
       const style=img.image ? `style="background-image:linear-gradient(rgba(0,0,0,.05),rgba(0,0,0,.05)),url('${img.image}');background-size:cover;background-position:center"` : '';
       return `<div class="gallery-item"><div class="gallery-img" ${style}></div><div class="caption">${img.caption||'Ambiance Brandy'}</div></div>`;
     }).join('');
-    return `<div class="service-block stacked" id="${id}"><div class="service-copy"><h2>${event.title||''}</h2><p>${event.description||''}</p><ul><li>Direction artistique</li><li>Décor personnalisé</li><li>Installation clé en main</li></ul><a class="btn alt" href="devis.html">Demander un devis</a></div><div class="service-gallery gallery two-rows">${gallery}</div></div>`;
+    const mainStyle=event.main_image ? `style="background-image:linear-gradient(rgba(0,0,0,.04),rgba(0,0,0,.04)),url('${event.main_image}');background-size:cover;background-position:center"` : '';
+    const visualClass = id.includes('mariage') ? 'wedding-visual' : id.includes('anniversaire') ? 'birthday-visual' : id.includes('scenographie') ? 'scenography-visual' : 'corporate-visual';
+    return `<div class="service-block featured" id="${id}"><div class="service-main"><div class="service-copy"><h2>${event.title||''}</h2><p>${event.description||''}</p><ul><li>Direction artistique</li><li>Décor personnalisé</li><li>Installation clé en main</li></ul><a class="btn alt" href="devis.html">Demander un devis</a></div><div class="service-visual ${visualClass}" ${mainStyle}></div></div><div class="service-gallery gallery two-rows">${gallery}</div></div>`;
   }).join('');
 }
 async function hydrateTeam(){
