@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: UTILISATRICE/BRANDY-AGENCE
+  repo: Leslie-Ann-MBSK/brandy-agence3
   branch: main
 media_folder: "assets/uploads"
 public_folder: "assets/uploads"
