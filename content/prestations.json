@@ -7,30 +7,31 @@
       "gallery": [
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 1"
+          "caption": "Ambiance corporate élégante"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 2"
+          "caption": "Décor photo professionnel"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 3"
+          "caption": "Scénographie de marque"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 4"
+          "caption": "Espace invités soigné"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 5"
+          "caption": "Activation événementielle"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 6"
+          "caption": "Détails premium"
         }
       ],
-      "slug": "corporate"
+      "slug": "corporate",
+      "main_image": "assets/uploads/placeholder.jpg"
     },
     {
       "title": "Mariages",
@@ -38,30 +39,31 @@
       "gallery": [
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 1"
+          "caption": "Cérémonie élégante"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 2"
+          "caption": "Table d’honneur raffinée"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 3"
+          "caption": "Ambiance romantique"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 4"
+          "caption": "Décor floral doux"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 5"
+          "caption": "Espace photo mariage"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 6"
+          "caption": "Détails personnalisés"
         }
       ],
-      "slug": "mariages"
+      "slug": "mariages",
+      "main_image": "assets/uploads/placeholder.jpg"
     },
     {
       "title": "Anniversaires",
@@ -69,30 +71,31 @@
       "gallery": [
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 1"
+          "caption": "Anniversaire signature"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 2"
+          "caption": "Arche organique colorée"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 3"
+          "caption": "Panneau personnalisé"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 4"
+          "caption": "Table décorée"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 5"
+          "caption": "Ambiance enfant"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 6"
+          "caption": "Ambiance adulte premium"
         }
       ],
-      "slug": "anniversaires"
+      "slug": "anniversaires",
+      "main_image": "assets/uploads/placeholder.jpg"
     },
     {
       "title": "Scénographie",
@@ -100,30 +103,31 @@
       "gallery": [
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 1"
+          "caption": "Univers immersif"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 2"
+          "caption": "Mise en scène visuelle"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 3"
+          "caption": "Décor thématique"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 4"
+          "caption": "Installation créative"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 5"
+          "caption": "Espace photo impactant"
         },
         {
           "image": "assets/uploads/placeholder.jpg",
-          "caption": "Ambiance 6"
+          "caption": "Ambiance sur mesure"
         }
       ],
-      "slug": "scenographie"
+      "slug": "scenographie",
+      "main_image": "assets/uploads/placeholder.jpg"
     }
   ]
 }
