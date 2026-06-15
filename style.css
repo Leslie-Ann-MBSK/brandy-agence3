@@ -1,0 +1,76 @@
+backend:
+  name: github
+  repo: UTILISATRICE/BRANDY-AGENCE
+  branch: main
+media_folder: "assets/uploads"
+public_folder: "assets/uploads"
+locale: fr
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Accueil"
+        name: "accueil"
+        file: "content/accueil.json"
+        fields:
+          - {label: "Titre section parcours", name: "journey_title", widget: "string"}
+          - label: "Étapes Packs"
+            name: "pack_steps"
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Texte", name: "text", widget: "text"}
+      - label: "Prestations"
+        name: "prestations"
+        file: "content/prestations.json"
+        fields:
+          - {label: "URL vidéo YouTube", name: "youtube_url", widget: "string"}
+          - label: "Types d’événements"
+            name: "events"
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Identifiant technique", name: "slug", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text"}
+              - label: "Photos"
+                name: "gallery"
+                widget: "list"
+                fields:
+                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "Texte au survol", name: "caption", widget: "string"}
+      - label: "Boutique / Packs"
+        name: "boutique"
+        file: "content/boutique.json"
+        fields:
+          - label: "Packs"
+            name: "packs"
+            widget: "list"
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Prix", name: "price", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+          - label: "Supports Pack Express"
+            name: "supports"
+            widget: "list"
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+      - label: "Équipe"
+        name: "equipe"
+        file: "content/equipe.json"
+        fields:
+          - label: "Collaborateurs"
+            name: "members"
+            widget: "list"
+            fields:
+              - {label: "Photo", name: "photo", widget: "image"}
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+      - label: "Paramètres"
+        name: "site"
+        file: "content/site.json"
+        fields:
+          - {label: "Instagram", name: "instagram", widget: "string"}
+          - {label: "Email", name: "email", widget: "string", required: false}
+          - {label: "WhatsApp", name: "whatsapp", widget: "string", required: false}

@@ -1,0 +1,129 @@
+{
+  "youtube_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+  "events": [
+    {
+      "title": "Événements corporate",
+      "description": "Scénographie, activation de marque, décors photo, événements d’entreprise et associations.",
+      "gallery": [
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 1"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 2"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 3"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 4"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 5"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 6"
+        }
+      ],
+      "slug": "corporate"
+    },
+    {
+      "title": "Mariages",
+      "description": "Ambiance élégante, douce et premium pour sublimer les moments précieux.",
+      "gallery": [
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 1"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 2"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 3"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 4"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 5"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 6"
+        }
+      ],
+      "slug": "mariages"
+    },
+    {
+      "title": "Anniversaires",
+      "description": "Décors personnalisés, arches, panneaux et éléments visuels pour un effet waouh.",
+      "gallery": [
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 1"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 2"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 3"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 4"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 5"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 6"
+        }
+      ],
+      "slug": "anniversaires"
+    },
+    {
+      "title": "Scénographie",
+      "description": "Création d’espaces visuels immersifs pour donner une identité forte à l’événement.",
+      "gallery": [
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 1"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 2"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 3"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 4"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 5"
+        },
+        {
+          "image": "assets/uploads/placeholder.jpg",
+          "caption": "Ambiance 6"
+        }
+      ],
+      "slug": "scenographie"
+    }
+  ]
+}
