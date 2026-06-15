@@ -3,7 +3,7 @@ backend:
   repo: Leslie-Ann-MBSK/brandy-agence3
   branch: main
 media_folder: "assets/uploads"
-public_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 locale: fr
 collections:
   - name: "pages"
