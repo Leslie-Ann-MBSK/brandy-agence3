@@ -1,4 +1,16 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>FAQ — Brandy Agence</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css"></head><body><nav class="nav">
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pack Brandy Express — Brandy Agence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<nav class="nav">
   <div class="container nav-inner">
     <a href="index.html" class="logo"><span class="logo-mark">BA</span><span>Brandy Agence<br><small class="muted">L’art de créer des souvenirs</small></span></a>
     <div class="menu">
@@ -11,7 +23,41 @@
     </div>
     <a class="btn light" href="devis.html">Demander un devis</a>
   </div>
-</nav><header class="page-hero"><div class="container"><span class="kicker">FAQ</span><h1>Questions fréquentes</h1></div></header><section class="section"><div class="container"><details class="faq-item" open><summary>Comment réserver un pack ?</summary><p>Configurez votre pack puis envoyez la demande. Vous recevrez un lien de paiement.</p></details><details class="faq-item"><summary>Les demandes sur mesure sont-elles payantes ?</summary><p>La demande de devis permet d’évaluer le projet avant validation.</p></details><details class="faq-item"><summary>Où se fait le click & collect ?</summary><p>Les lieux et modalités seront confirmés par email.</p></details></div></section><section class="insta-bar"><div class="container"><div class="insta-head"><div><span class="kicker">Instagram</span><h2>@brandyagence.gf</h2><p class="muted">Découvrez les dernières inspirations et réalisations.</p></div><a class="btn light" href="https://www.instagram.com/brandyagence.gf/" target="_blank">Voir Instagram</a></div><div class="insta-grid"><div class="insta-card"><div class="insta-img"></div><p>Anniversaire signature</p></div><div class="insta-card"><div class="insta-img"></div><p>Décor premium</p></div><div class="insta-card"><div class="insta-img"></div><p>Baby shower</p></div><div class="insta-card"><div class="insta-img"></div><p>Événement corporate</p></div></div></div></section><div class="chatbot"><div class="chat-panel"><div class="chat-head">Brandy Assistant 💬</div><div class="chat-body"><div class="bot-msg">Bonjour ✨ Je peux vous aider à trouver le bon parcours.</div><div class="chat-actions"><button onclick="chatChoose('shop')">Commander un pack</button><button onclick="chatChoose('devis')">Demander un devis</button><button onclick="chatChoose('question')">Question rapide</button></div></div></div><button class="chat-toggle" onclick="toggleChat()">💬</button></div><footer class="footer">
+</nav>
+<header class="page-hero"><div class="container"><span class="kicker">Pack Brandy Express</span><h1>Configurez votre pack</h1><p class="muted">Personnalisez votre demande et envoyez votre commande. Les packs sont à récupérer en point relais.</p></div></header>
+<section class="section"><div class="container grid-2"><div class="card"><div class="support-preview" id="supportPreview"><div class="support-image"></div><p class="muted">Sélectionnez un support pour visualiser l’option choisie.</p></div><h3>Pack Brandy Express — 680€</h3><p class="muted" data-pack-description="Pack Brandy Express">Mise à disposition en 24 à 48h jours ouvrés après confirmation du paiement. La description du pack est prévue pour être rendue modifiable via le CMS.</p></div><div class="card" id="expressForm" data-progress="true"><p class="steps-note">Votre commande : <span class="progress-value">0%</span></p><div class="progress-wrap"><div class="progress-bar"></div></div><form class="form" onsubmit="event.preventDefault();showOrderConfirmation();"><select required><option value="">Type d’événement</option><option>Anniversaire enfant</option><option>Anniversaire adulte</option><option>Baby shower</option><option>EVJF / EVG</option><option>Autre</option></select><textarea placeholder="Description libre du thème souhaité"></textarea><label class="field-label" for="supportChoice">Choix du support</label>
+<select id="supportChoice" name="support" data-support-preview data-cms-supports required>
+  <option value="">Choisir un support</option>
+  <option value="Support rond" data-image="linear-gradient(135deg,#fff,#f4d4bf,#ff3497)">Support rond</option>
+  <option value="Support arche" data-image="linear-gradient(135deg,#fff8f2,#ff9832,#ffd03e)">Support arche</option>
+  <option value="Support panneau" data-image="linear-gradient(135deg,#fff,#00bdb3,#b7cf48)">Support panneau</option>
+  <option value="Support colonne" data-image="linear-gradient(135deg,#19151f,#51305a,#ff3497)">Support colonne</option>
+  <option value="Support personnalisé" data-image="linear-gradient(135deg,#fff,#ffd03e,#00bdb3)">Support personnalisé</option>
+</select><label class="field-label" for="colors-express">Choix des couleurs</label><select id="colors-express" data-color-choice><option value="">Choix des couleurs</option><option>Je choisis mes 3 couleurs</option><option>Brandy choisit pour moi</option></select><div class="color-fields" data-color-fields><input placeholder="Couleur 1"><input placeholder="Couleur 2"><input placeholder="Couleur 3"></div><label class="field-label">Date de récupération souhaitée</label><input type="date" required><p class="form-note">Les packs sont à récupérer en point relais. Les modalités exactes seront confirmées par e-mail après validation de la commande.</p><select><option value="">Commune de récupération souhaitée</option><option>Île de Cayenne</option><option>Macouria</option><option>Kourou</option><option>Roura</option></select><input type="email" placeholder="Email de confirmation" required><button class="btn" type="submit">Commander</button></form></div></div></section><section class="insta-bar">
+  <div class="container">
+    <div class="insta-head">
+      <div><span class="kicker">Instagram</span><h2>@brandyagence.gf</h2><p class="muted">Découvrez les dernières inspirations et réalisations.</p></div>
+      <a class="btn light" href="https://www.instagram.com/brandyagence.gf/" target="_blank">Voir Instagram</a>
+    </div>
+    <div class="insta-grid">
+      <div class="insta-card"><div class="insta-img"></div><p>Anniversaire signature</p></div>
+      <div class="insta-card"><div class="insta-img"></div><p>Décor premium</p></div>
+      <div class="insta-card"><div class="insta-img"></div><p>Baby shower</p></div>
+      <div class="insta-card"><div class="insta-img"></div><p>Événement corporate</p></div>
+    </div>
+  </div>
+</section>
+<div class="chatbot">
+  <div class="chat-panel">
+    <div class="chat-head">Brandy Assistant 💬</div>
+    <div class="chat-body">
+      <div class="bot-msg">Bonjour ✨ Je peux vous aider à trouver le bon parcours.</div>
+      <div class="chat-actions"><button onclick="chatChoose('shop')">Commander un pack</button><button onclick="chatChoose('devis')">Demander un devis</button><button onclick="chatChoose('question')">Question rapide</button></div>
+    </div>
+  </div>
+  <button class="chat-toggle" onclick="toggleChat()">💬</button>
+</div>
+<footer class="footer">
   <div class="container footer-grid">
     <div><h3>Brandy Agence</h3><p>L’art de créer des souvenirs en Guyane.</p></div>
     <div><h3>Boutique</h3><p><a href="pack-express.html">Pack Express</a><br><a href="pack-ballons.html">Pack Ballons DIY</a><br><a href="ebooks.html">E-books</a></p></div>

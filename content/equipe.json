@@ -1,0 +1,29 @@
+{
+  "members": [
+    {
+      "photo": "assets/uploads/equipe-1.jpg",
+      "name": "Collaborateur 1",
+      "description": "Courte description du rôle dans l’équipe Brandy."
+    },
+    {
+      "photo": "assets/uploads/equipe-2.jpg",
+      "name": "Collaborateur 2",
+      "description": "Courte description du rôle dans l’équipe Brandy."
+    },
+    {
+      "photo": "assets/uploads/equipe-3.jpg",
+      "name": "Collaborateur 3",
+      "description": "Courte description du rôle dans l’équipe Brandy."
+    },
+    {
+      "photo": "assets/uploads/equipe-4.jpg",
+      "name": "Collaborateur 4",
+      "description": "Courte description du rôle dans l’équipe Brandy."
+    },
+    {
+      "photo": "assets/uploads/equipe-5.jpg",
+      "name": "Collaborateur 5",
+      "description": "Courte description du rôle dans l’équipe Brandy."
+    }
+  ]
+}

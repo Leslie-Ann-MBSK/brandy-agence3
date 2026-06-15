@@ -1,41 +1,61 @@
-{
-  "packs": [
-    {
-      "name": "Pack Brandy Express",
-      "price": "680€",
-      "description": "Pack clé-en-main pour un décor stylé et rapide."
-    },
-    {
-      "name": "Pack Ballons DIY",
-      "price": "Sur devis",
-      "description": "Je choisis, je paye, je collecte."
-    }
-  ],
-  "supports": [
-    {
-      "name": "Support rond",
-      "image": "assets/uploads/support-rond.jpg",
-      "description": ""
-    },
-    {
-      "name": "Support arche",
-      "image": "assets/uploads/support-arche.jpg",
-      "description": ""
-    },
-    {
-      "name": "Support panneau",
-      "image": "assets/uploads/support-panneau.jpg",
-      "description": ""
-    },
-    {
-      "name": "Support colonne",
-      "image": "assets/uploads/support-colonne.jpg",
-      "description": ""
-    },
-    {
-      "name": "Support personnalisé",
-      "image": "assets/uploads/support-personnalise.jpg",
-      "description": ""
-    }
-  ]
-}
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>À propos — Brandy Agence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo"><span class="logo-mark">BA</span><span>Brandy Agence<br><small class="muted">L’art de créer des souvenirs</small></span></a>
+    <div class="menu">
+      <a href="index.html">Accueil</a>
+      <a href="boutique.html">Boutique</a>
+      <a href="prestations.html">Prestations</a>
+      <a href="devis.html">Devis</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+    <a class="btn light" href="devis.html">Demander un devis</a>
+  </div>
+</nav>
+<header class="page-hero"><div class="container"><span class="kicker">À propos</span><h1>Brandy Agence</h1><p class="muted">Une agence événementielle créative en Guyane.</p></div></header><section class="section"><div class="container grid-2"><div class="card"><span class="badge">Fondatrice</span><h2>Chloé, créatrice d’ambiances</h2><p>À travers Brandy Agence, Chloé imagine des décors qui racontent une histoire : une émotion, une couleur, un souvenir, une expérience à vivre.</p><p class="muted">Son approche mêle sens du détail, créativité et recherche de l’effet waouh.</p><a class="btn" href="devis.html">Parler de mon projet</a></div><div class="service-visual"></div></div></section><section class="section soft"><div class="container"><div class="section-head"><div><h2>L’équipe Brandy</h2><p>Une équipe mobilisée autour de chaque détail, de la conception à l’installation.</p></div></div><div class="team-row" id="teamRow"><article class="team-card"><div class="team-photo"></div><h3>Collaborateur 1</h3><p class="muted">Courte description du rôle dans l’équipe Brandy.</p></article><article class="team-card"><div class="team-photo"></div><h3>Collaborateur 2</h3><p class="muted">Courte description du rôle dans l’équipe Brandy.</p></article><article class="team-card"><div class="team-photo"></div><h3>Collaborateur 3</h3><p class="muted">Courte description du rôle dans l’équipe Brandy.</p></article><article class="team-card"><div class="team-photo"></div><h3>Collaborateur 4</h3><p class="muted">Courte description du rôle dans l’équipe Brandy.</p></article><article class="team-card"><div class="team-photo"></div><h3>Collaborateur 5</h3><p class="muted">Courte description du rôle dans l’équipe Brandy.</p></article></div></div></section><section class="section"><div class="container"><div class="section-head"><div><h2>Une équipe autour de chaque détail</h2><p>De la conception à l’installation, l’équipe Brandy accompagne les projets pour créer une expérience fluide et soignée.</p></div></div><div class="grid-3"><div class="card"><h3>Création</h3><p class="muted">Direction artistique, choix des couleurs et univers visuel.</p></div><div class="card"><h3>Préparation</h3><p class="muted">Organisation des éléments décoratifs, papeterie et supports.</p></div><div class="card"><h3>Installation</h3><p class="muted">Mise en place et finitions pour un rendu propre le jour J.</p></div></div></div></section><section class="insta-bar">
+  <div class="container">
+    <div class="insta-head">
+      <div><span class="kicker">Instagram</span><h2>@brandyagence.gf</h2><p class="muted">Découvrez les dernières inspirations et réalisations.</p></div>
+      <a class="btn light" href="https://www.instagram.com/brandyagence.gf/" target="_blank">Voir Instagram</a>
+    </div>
+    <div class="insta-grid">
+      <div class="insta-card"><div class="insta-img"></div><p>Anniversaire signature</p></div>
+      <div class="insta-card"><div class="insta-img"></div><p>Décor premium</p></div>
+      <div class="insta-card"><div class="insta-img"></div><p>Baby shower</p></div>
+      <div class="insta-card"><div class="insta-img"></div><p>Événement corporate</p></div>
+    </div>
+  </div>
+</section>
+<div class="chatbot">
+  <div class="chat-panel">
+    <div class="chat-head">Brandy Assistant 💬</div>
+    <div class="chat-body">
+      <div class="bot-msg">Bonjour ✨ Je peux vous aider à trouver le bon parcours.</div>
+      <div class="chat-actions"><button onclick="chatChoose('shop')">Commander un pack</button><button onclick="chatChoose('devis')">Demander un devis</button><button onclick="chatChoose('question')">Question rapide</button></div>
+    </div>
+  </div>
+  <button class="chat-toggle" onclick="toggleChat()">💬</button>
+</div>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><h3>Brandy Agence</h3><p>L’art de créer des souvenirs en Guyane.</p></div>
+    <div><h3>Boutique</h3><p><a href="pack-express.html">Pack Express</a><br><a href="pack-ballons.html">Pack Ballons DIY</a><br><a href="ebooks.html">E-books</a></p></div>
+    <div><h3>Prestations</h3><p><a href="prestations.html#corporate">Corporate</a><br><a href="prestations.html#mariages">Mariages</a><br><a href="prestations.html#anniversaires">Anniversaires</a><br><a href="prestations.html#scenographie">Scénographie</a></p></div>
+    <div><h3>Support</h3><p><a href="faq.html">FAQ</a><br><a href="cgv.html">CGV / CGU</a><br><a href="contact.html">Contact</a></p></div>
+  </div>
+</footer>
+<script src="assets/script.js"></script>
+</body>
+</html>
